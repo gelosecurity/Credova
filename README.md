@@ -1,5 +1,6 @@
 # Credova
 Credova is a script used for assisting static analysis of Cordova mobile applications (Cross-Platform, iOS & Android). It scans for hardcoded secrets, such as API keys, access tokens, and private keys, in JavaScript files.
+
 ![image](https://user-images.githubusercontent.com/49821326/216807568-5df4c320-2432-4c36-9c4e-ae9878d86fd5.png)
 
 ## Requirements
