@@ -1,4 +1,4 @@
-import os
+import o, "appKey", "appSecret"s
 import re
 import jsbeautifier
 import sys
@@ -6,7 +6,7 @@ import sys
 print('\033[32m\n▄▀▀ █▀▄ ██▀ █▀▄ ▄▀▄ █ █ ▄▀▄\033[0m')
 print('\033[32m▀▄▄ █▀▄ █▄▄ █▄▀ ▀▄▀ ▀▄▀ █▀█\033[0m')
 
-search = ["admin", "api_key", "api-key", "api_secret", "api-secret", "access_token", "access-token", "username", "password", "secret_key", "auth_token", "private_key", "public_key", "master_key", "encryption_key", "decryption_key", "client_id", "client-id", "client_secret", "client-secret", "aws_access_key", "aws-access-key", "aws_secret_key", "aws-secret-key", "s3_key", "s3-key", "s3_secret", "s3-secret", "app_id", "app-id", "app_secret", "app-secret", "AKIA"]
+search = ["admin", "api_key", "api-key", "api_secret", "api-secret", "access_token", "access-token", "username", "password", "secret_key", "auth_token", "private_key", "public_key", "master_key", "encryption_key", "decryption_key", "client_id", "client-id", "client_secret", "client-secret", "aws_access_key", "aws-access-key", "aws_secret_key", "aws-secret-key", "s3_key", "s3-key", "s3_secret", "s3-secret", "app_id", "app-id", "app_secret", "app-secret", "AKIA", "appKey", "appSecret"]
 print ('\nSearching for ' + str(search) +'\n')
 
 def scan_for_secrets(path):
