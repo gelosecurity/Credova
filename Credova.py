@@ -1,4 +1,4 @@
-import o, "appKey", "appSecret"s
+import os
 import re
 import jsbeautifier
 import sys
